@@ -4,10 +4,7 @@ import { EvmChain } from '@moralisweb3/evm-utils';
 import styles from '../styles/Home.module.css'
 import Layout from "../components/Layout";
 import Header from "../components/Header";
-import Container from 'react-bootstrap/Container';
-import 'bootstrap/dist/css/bootstrap.css';
-import Row from 'react-bootstrap/Row';
-import ListGroup from 'react-bootstrap/ListGroup';
+
 
 import Col from 'react-bootstrap/Col';
 import {
@@ -91,9 +88,9 @@ function Protected({ message, nftList, nativeBalance, tokens }) {
             <pre>{JSON.stringify(nftList.metadata, null, 2)}</pre>
 
             {/*COMMENTS*/}
-            <Container>
-                <Row>
-                    <Col>
+            
+                
+                    
                         <Card style={cardStyle}>
                             <CardImg
                                 alt="..."
@@ -113,7 +110,7 @@ function Protected({ message, nftList, nativeBalance, tokens }) {
                         </Card>
 
 
-                    </Col>
+                    
 
                     <Card style={cardStyle}>
                         <CardImg
@@ -172,11 +169,11 @@ function Protected({ message, nftList, nativeBalance, tokens }) {
 
                         </CardBody>
                     </Card>
-                </Row>
+                
 
                 {/*COMMENTS*/}
-                <Row>
-                    <Col>
+                
+                    
                         <Card style={cardStyle}>
                             <CardImg
                                 alt="..."
@@ -195,7 +192,7 @@ function Protected({ message, nftList, nativeBalance, tokens }) {
 
                             </CardBody>
                         </Card>
-                    </Col>
+                    
 
                     <Card style={cardStyle}>
                         <CardImg
@@ -253,11 +250,11 @@ function Protected({ message, nftList, nativeBalance, tokens }) {
                     </Card>
 
 
-                </Row>
+                
 
 
-                <Row>
-                    <Col>
+                
+                    
                         <Card style={cardStyle}>
                             <CardImg
                                 alt="..."
@@ -277,7 +274,7 @@ function Protected({ message, nftList, nativeBalance, tokens }) {
                             </CardBody>
                         </Card>
 
-                    </Col>
+                    
                     <Card style={cardStyle}>
                         <CardImg
                             alt="..."
@@ -333,9 +330,9 @@ function Protected({ message, nftList, nativeBalance, tokens }) {
 
                         </CardBody>
                     </Card>
-                </Row>
-                <Row>
-                    <Col>
+                
+                
+                    
                         <Card style={cardStyle}>
                             <CardImg
                                 alt="..."
@@ -355,7 +352,7 @@ function Protected({ message, nftList, nativeBalance, tokens }) {
                             </CardBody>
                         </Card>
 
-                    </Col>
+                    
                     <Card style={cardStyle}>
                         <CardImg
                             alt="..."
@@ -392,10 +389,10 @@ function Protected({ message, nftList, nativeBalance, tokens }) {
 
                         </CardBody>
                     </Card>
-                </Row>
+                
 
 
-            </Container>
+            
 
         </div>
 

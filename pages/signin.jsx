@@ -2,7 +2,6 @@ import { InjectedConnector } from 'wagmi/connectors/injected';
 import { signIn } from 'next-auth/react';
 import { useAccount, useConnect, useSignMessage, useDisconnect } from 'wagmi';
 import { useRouter } from 'next/router';
-import 'bootstrap/dist/css/bootstrap.css';
 import React, { Component } from 'react';
 import styles from '../styles/Home.module.css'
 import {

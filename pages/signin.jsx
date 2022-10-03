@@ -45,7 +45,7 @@ function SignIn() {
         const signature = await signMessageAsync({ message });
 
         // redirect user after success authentication to '/user' page
-        const { url } = await signIn('credentials', { message, signature, redirect: false, callbackUrl: '/user' });
+        const { url } = await signIn('credentials', { message, signature, redirect: true, callbackUrl: '/user' });
         /**
          * instead of using signIn(..., redirect: "/user")
          * we get the url from callback and push it to the router to avoid page refreshing

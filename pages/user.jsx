@@ -1,7 +1,5 @@
 import { getSession, signOut } from 'next-auth/react';
 import { useRouter } from 'next/router';
-import Col from 'react-bootstrap/Col';
-import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Home.module.css';
 import Header from "../components/Header";
 import Layout from "../components/Layout";

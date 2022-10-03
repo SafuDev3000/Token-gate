@@ -6,7 +6,6 @@ import Layout from "../components/Layout";
 import Header from "../components/Header";
 
 
-import Col from 'react-bootstrap/Col';
 import {
     Button,
     Card,

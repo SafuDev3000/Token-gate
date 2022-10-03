@@ -1,8 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Tooltip from 'react-bootstrap/Tooltip';
-import Button from 'react-bootstrap/Button';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
-import 'bootstrap/dist/css/bootstrap.css';
 import Polygon from '../components/Polygon.png'
 import {
     Container,
